@@ -12,7 +12,7 @@ This data is licensed by Microsoft under the [Open Data Commons Open Database Li
 
 The vintage of the footprints depends on the vintage of the underlying imagery. Bing Imagery is a composite of multiple sources with different capture dates. Each building footprint has a capture date tag associated if we were able to deduce the vintage of imagery source.
 
-Footprints inside the highlighted [region](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/US_areas_L13.geojson) on the map are from 2019-2020. There are 73,250,745 such building footprints. This is the focal area where we rerun extraction for the latest release.
+Footprints inside the highlighted [region](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/US_areas_L13.geojson) on the map are from 2019-2020. There are 73,250,745 such building footprints. This is the focal area where we rerun extraction for the latest release.
 
 The rest of the footprints were extracted from older images, having wider range of capture dates, averaging 2012 year approximately. We have reused footprints from previous releases in this area.
 
@@ -118,57 +118,57 @@ A Vector Tile implementation of the data is hosted by [Esri](https://www.arcgis.
 
 | State or district | Number of Buildings  | Unzipped size |
 |:----------------- |:-------------:| -----:|
-| [Alabama](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Alabama.geojson.zip)|2,455,168|672.58 MiB|
-| [Alaska](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Alaska.geojson.zip)|111,042|30.00 MiB|
-| [Arizona](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Arizona.geojson.zip)|2,738,732|806.59 MiB|
-| [Arkansas](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Arkansas.geojson.zip)|1,571,198|425.40 MiB|
-| [California](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/California.geojson.zip)|11,542,912|3.35 GiB|
-| [Colorado](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Colorado.geojson.zip)|2,185,953|619.88 MiB|
-| [Connecticut](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Connecticut.geojson.zip)|1,215,624|324.20 MiB|
-| [Delaware](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Delaware.geojson.zip)|357,534|94.00 MiB|
-| [District of Columbia](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/DistrictofColumbia.geojson.zip)|77,851|22.52 MiB|
-| [Florida](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Florida.geojson.zip)|7,263,195|2.01 GiB|
-| [Georgia](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Georgia.geojson.zip)|3,981,792|1.04 GiB|
-| [Hawaii](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Hawaii.geojson.zip)|252,908|64.72 MiB|
-| [Idaho](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Idaho.geojson.zip)|942,132|259.43 MiB|
-| [Illinois](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Illinois.geojson.zip)|5,194,010|1.35 GiB|
-| [Indiana](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Indiana.geojson.zip)|3,379,648|920.20 MiB|
-| [Iowa](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Iowa.geojson.zip)|2,074,904|517.95 MiB|
-| [Kansas](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Kansas.geojson.zip)|1,614,406|428.38 MiB|
-| [Kentucky](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Kentucky.geojson.zip)|2,447,682|663.98 MiB|
-| [Louisiana](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Louisiana.geojson.zip)|2,173,567|600.69 MiB|
-| [Maine](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Maine.geojson.zip)|758,999|187.84 MiB|
-| [Maryland](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Maryland.geojson.zip)|1,657,199|410.84 MiB|
-| [Massachusetts](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Massachusetts.geojson.zip)|2,114,602|566.87 MiB|
-| [Michigan](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Michigan.geojson.zip)|4,982,783|1.24 GiB|
-| [Minnesota](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Minnesota.geojson.zip)|2,914,016|762.08 MiB|
-| [Mississippi](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Mississippi.geojson.zip)|1,507,496|394.08 MiB|
-| [Missouri](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Missouri.geojson.zip)|3,190,076|840.28 MiB|
-| [Montana](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Montana.geojson.zip)|773,199|200.45 MiB|
-| [Nebraska](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Nebraska.geojson.zip)|1,187,234|302.72 MiB|
-| [Nevada](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Nevada.geojson.zip)|1,006,278|296.10 MiB|
-| [New Hampshire](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/NewHampshire.geojson.zip)|577,936|146.40 MiB|
-| [New Jersey](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/NewJersey.geojson.zip)|2,550,308|681.55 MiB|
-| [New Mexico](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/NewMexico.geojson.zip)|1,037,096|291.54 MiB|
-| [New York](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/NewYork.geojson.zip)|4,972,497|1.25 GiB|
-| [North Carolina](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/NorthCarolina.geojson.zip)|4,678,064|1.22 GiB|
-| [North Dakota](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/NorthDakota.geojson.zip)|568,213|143.54 MiB|
-| [Ohio](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Ohio.geojson.zip)|5,544,032|1.42 GiB|
-| [Oklahoma](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Oklahoma.geojson.zip)|2,159,894|582.14 MiB|
-| [Oregon](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Oregon.geojson.zip)|1,873,786|545.94 MiB|
-| [Pennsylvania](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Pennsylvania.geojson.zip)|4,965,213|1.23 GiB|
-| [Rhode Island](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/RhodeIsland.geojson.zip)|392,581|105.21 MiB|
-| [South Carolina](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/SouthCarolina.geojson.zip)|2,299,671|612.67 MiB|
-| [South Dakota](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/SouthDakota.geojson.zip)|661,311|166.31 MiB|
-| [Tennessee](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Tennessee.geojson.zip)|3,212,306|890.22 MiB|
-| [Texas](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Texas.geojson.zip)|10,678,921|2.83 GiB|
-| [Utah](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Utah.geojson.zip)|1,081,586|306.98 MiB|
-| [Vermont](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Vermont.geojson.zip)|351,266|87.92 MiB|
-| [Virginia](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Virginia.geojson.zip)|3,079,351|797.04 MiB|
-| [Washington](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Washington.geojson.zip)|3,128,258|884.38 MiB|
-| [West Virginia](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/WestVirginia.geojson.zip)|1,055,625|260.33 MiB|
-| [Wisconsin](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Wisconsin.geojson.zip)|3,173,347|817.06 MiB|
-| [Wyoming](https://usbuildingdata.blob.core.windows.net/usbuildings-v2/Wyoming.geojson.zip)|386,518|99.32 MiB|
+| [Alabama](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Alabama.geojson.zip)|2,455,168|672.58 MiB|
+| [Alaska](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Alaska.geojson.zip)|111,042|30.00 MiB|
+| [Arizona](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Arizona.geojson.zip)|2,738,732|806.59 MiB|
+| [Arkansas](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Arkansas.geojson.zip)|1,571,198|425.40 MiB|
+| [California](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/California.geojson.zip)|11,542,912|3.35 GiB|
+| [Colorado](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Colorado.geojson.zip)|2,185,953|619.88 MiB|
+| [Connecticut](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Connecticut.geojson.zip)|1,215,624|324.20 MiB|
+| [Delaware](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Delaware.geojson.zip)|357,534|94.00 MiB|
+| [District of Columbia](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/DistrictofColumbia.geojson.zip)|77,851|22.52 MiB|
+| [Florida](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Florida.geojson.zip)|7,263,195|2.01 GiB|
+| [Georgia](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Georgia.geojson.zip)|3,981,792|1.04 GiB|
+| [Hawaii](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Hawaii.geojson.zip)|252,908|64.72 MiB|
+| [Idaho](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Idaho.geojson.zip)|942,132|259.43 MiB|
+| [Illinois](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Illinois.geojson.zip)|5,194,010|1.35 GiB|
+| [Indiana](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Indiana.geojson.zip)|3,379,648|920.20 MiB|
+| [Iowa](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Iowa.geojson.zip)|2,074,904|517.95 MiB|
+| [Kansas](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Kansas.geojson.zip)|1,614,406|428.38 MiB|
+| [Kentucky](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Kentucky.geojson.zip)|2,447,682|663.98 MiB|
+| [Louisiana](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Louisiana.geojson.zip)|2,173,567|600.69 MiB|
+| [Maine](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Maine.geojson.zip)|758,999|187.84 MiB|
+| [Maryland](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Maryland.geojson.zip)|1,657,199|410.84 MiB|
+| [Massachusetts](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Massachusetts.geojson.zip)|2,114,602|566.87 MiB|
+| [Michigan](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Michigan.geojson.zip)|4,982,783|1.24 GiB|
+| [Minnesota](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Minnesota.geojson.zip)|2,914,016|762.08 MiB|
+| [Mississippi](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Mississippi.geojson.zip)|1,507,496|394.08 MiB|
+| [Missouri](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Missouri.geojson.zip)|3,190,076|840.28 MiB|
+| [Montana](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Montana.geojson.zip)|773,199|200.45 MiB|
+| [Nebraska](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Nebraska.geojson.zip)|1,187,234|302.72 MiB|
+| [Nevada](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Nevada.geojson.zip)|1,006,278|296.10 MiB|
+| [New Hampshire](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/NewHampshire.geojson.zip)|577,936|146.40 MiB|
+| [New Jersey](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/NewJersey.geojson.zip)|2,550,308|681.55 MiB|
+| [New Mexico](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/NewMexico.geojson.zip)|1,037,096|291.54 MiB|
+| [New York](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/NewYork.geojson.zip)|4,972,497|1.25 GiB|
+| [North Carolina](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/NorthCarolina.geojson.zip)|4,678,064|1.22 GiB|
+| [North Dakota](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/NorthDakota.geojson.zip)|568,213|143.54 MiB|
+| [Ohio](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Ohio.geojson.zip)|5,544,032|1.42 GiB|
+| [Oklahoma](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Oklahoma.geojson.zip)|2,159,894|582.14 MiB|
+| [Oregon](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Oregon.geojson.zip)|1,873,786|545.94 MiB|
+| [Pennsylvania](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Pennsylvania.geojson.zip)|4,965,213|1.23 GiB|
+| [Rhode Island](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/RhodeIsland.geojson.zip)|392,581|105.21 MiB|
+| [South Carolina](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/SouthCarolina.geojson.zip)|2,299,671|612.67 MiB|
+| [South Dakota](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/SouthDakota.geojson.zip)|661,311|166.31 MiB|
+| [Tennessee](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Tennessee.geojson.zip)|3,212,306|890.22 MiB|
+| [Texas](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Texas.geojson.zip)|10,678,921|2.83 GiB|
+| [Utah](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Utah.geojson.zip)|1,081,586|306.98 MiB|
+| [Vermont](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Vermont.geojson.zip)|351,266|87.92 MiB|
+| [Virginia](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Virginia.geojson.zip)|3,079,351|797.04 MiB|
+| [Washington](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Washington.geojson.zip)|3,128,258|884.38 MiB|
+| [West Virginia](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/WestVirginia.geojson.zip)|1,055,625|260.33 MiB|
+| [Wisconsin](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Wisconsin.geojson.zip)|3,173,347|817.06 MiB|
+| [Wyoming](https://minedbuildings.z5.web.core.windows.net/legacy/usbuildings-v2/Wyoming.geojson.zip)|386,518|99.32 MiB|
 
 ## Contributing
 
